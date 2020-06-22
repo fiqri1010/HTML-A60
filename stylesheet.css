@@ -1,0 +1,70 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "monserrat" "serif";
+  margin: 0 auto;
+}
+
+header {
+  margin: 0 auto;
+  height: 90px;
+  width: auto;
+  background-color: #303952;
+  color: #fff
+  position: fixed;
+}
+
+.logo {
+  float: left;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-right: 345px;
+  padding-left: 20px;
+  background-image: url(car-solid.svg);
+  background-repeat: no-repeat;
+}
+
+.logo h1 a {
+  text-decoration-line: none;
+  color: #fff;
+}
+
+.logo2 {
+  color: #eccc68;
+}
+
+.fas {
+  color: #eccc68;
+}
+
+.menu-list {
+  float: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+  color: #fff;
+  float: left;
+  padding-right: 20px;
+  padding-top: 35px;
+}
+
+li a {
+  color: #fff;
+  text-decoration-line: none;
+}
+
+li a:hover {
+  color: #dfe4ea;
+  text-decoration-line: none;
+  background-color: inherit;
+}
